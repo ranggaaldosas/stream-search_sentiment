@@ -70,7 +70,7 @@ def get_latest_tweet_df(search_term, num_tweets, twitter_auth_token):
     try:
         result = subprocess.run(
             [
-                "C:\\Program Files\\nodejs\\npx.cmd",
+                "npx",
                 "tweet-harvest@2.6.0",
                 "-s",
                 search_keyword,
